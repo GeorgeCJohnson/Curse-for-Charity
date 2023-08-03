@@ -5,23 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cursing for Charity</title>
   <link rel="reset" href="./assets/reset.css">
-  <link rel="stylesheet" href="./assets/style.css">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://fonts. googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" data-tag="font"/>
+
+  <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
 
-  <header>
-  <nav>
-    <image id="logo" src="./assets/images/logo.png" alt="Logo">
-    <div class="nav-links">
-      <button id="nav-home">Home</button>
-      <button id="nav-profile">Profile</button>
-      <button id="nav-chatroom">Chatroom</button>
-    </div>
-  </nav>
-  </header> 
+    <header>
+        <nav class="bg-sky-800 text-white py-4">
+          <div class="container mx-auto flex items-center justify-between">
+            <img id="logo" src="./assets/images/logo.png" alt="Logo" class="h-16 w-auto">
+            <div class="nav-links flex space-x-4">
+              <button id="nav-home" class="px-4 py-2 rounded">Home</button>
+              <button id="nav-profile" class="px-4 py-2 rounded">Profile</button>
+              <button id="nav-chatroom" class="px-4 py-2 rounded">Chatroom</button>
+            </div>
+          </div>
+        </nav>
+      </header>
 
   <main> 
     <div id="home" class="page">
@@ -57,16 +59,10 @@
 
     <div>
       <div id="chatroom" class="page">
-        <h1 class="home-text">
-          <span class="home-text1">CHATROOM:</span>
-          <br />
-          <br />
-          <br />
-        </h1>
-
-      <div class="home-container1">
+        <div class="home-container1">
         <button type="button" class="home-button button">INVITE USERS</button>
         <button type="button" class="home-button1 button">LOGOUT</button>
+        <button type="button" class="home-button button" startTranscriptionBtn">Start Transcription</button>
       </div>
 
       <div class="home-features">

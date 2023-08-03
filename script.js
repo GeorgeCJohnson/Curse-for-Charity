@@ -70,13 +70,14 @@ function showPage(pageId) {
   
   // Function to start speech-to-text transcription
   function startTranscription() {
-    // Add your code to start speech-to-text transcription here
+
     // For demonstration purposes, you can show a message that transcription started
     console.log("Transcription started...");
   }
   
-  /* // Attach event listeners to the trigger buttons
+   // Attach event listeners to the trigger buttons
   document.addEventListener("DOMContentLoaded", () => {
+/*
     // Trigger Sign Up when the Sign Up button is clicked
     document.querySelector("#form1 button[type='button']")
     .addEventListener("click", handleSignUp);
@@ -85,13 +86,14 @@ function showPage(pageId) {
     document
       .querySelector("#chatroom .home-container1 button:nth-child(2)")
       .addEventListener("click", handleLogout);
-  
+ */
+ 
     // Trigger Transcription when the Start Transcription button is clicked
     document
       .querySelector("#chatroom #startTranscriptionBtn")
       .addEventListener("click", startTranscription);
   });
-  */
+  
   
   // Mock user balance (you'd typically handle this server-side)
   const userBalance = {
